@@ -1,10 +1,10 @@
 # customer-segmentation
 
-#Customer Segmentation with K-Means#
+# Customer Segmentation with K-Means#
 
 -This project builds a production-ready customer segmentation system using K-Means clustering on transactional and demographic data. It includes a reproducible training pipeline, an inference API, optional Streamlit UI, experiment tracking, containerization, and CI/CD hooks for reliable deployment.
 
-#Objectives
+# Objectives
 
 Discover actionable customer segments from spending, engagement, and recency behaviors.
 
@@ -12,7 +12,7 @@ Expose a simple prediction service that assigns a new customer to a segment.
 
 Ensure the pipeline is reproducible, testable, and deployable with standard MLOps practices.
 
-#Dataset
+# Dataset
 
 -File: customer_segmentation.csv
 
@@ -26,7 +26,7 @@ Total_Spending = sum of category spend columns
 
 Final feature vector: [Age, Income, Total_Spending, NumWebPurchases, NumStorePurchases, NumWebVisitsMonth, Recency]
 
-#Features and Labels
+# Features and Labels
 -Unsupervised clustering with K-Means; no labels in the raw data.
 
 -Optional human-readable segment names can be mapped post hoc for business reporting.
