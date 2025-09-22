@@ -1,6 +1,6 @@
 # customer-segmentation
 
-Customer Segmentation with K-Means
+#Customer Segmentation with K-Means#
 This project builds a production-ready customer segmentation system using K-Means clustering on transactional and demographic data. It includes a reproducible training pipeline, an inference API, optional Streamlit UI, experiment tracking, containerization, and CI/CD hooks for reliable deployment.
 
 Objectives
